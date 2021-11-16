@@ -1,0 +1,24 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${command:cmake.launchTargetPath}",
+      "args": [],
+      "env": {
+        "QSG_INFO": "1"
+      },
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "visualizerFile": "/Users/borisp/Library/Application Support/Code/User/workspaceStorage/6d00befb8a987495bfbfc00bcba025f5/tonka3000.qtvsctools/qt.natvis.xml"
+    }
+  ]
+}
